@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/awadiagne/SKLearn/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/awadiagne/SKLearn/tree/master)
 
 ## Project Overview
 
