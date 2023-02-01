@@ -6,14 +6,14 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=diawa/sklearn
+dockerpath=diawa/skl
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login
-docker --tag sklearn $dockerpath:latest
+docker tag sklearn $dockerpath:1.0
 
 # Step 3:
 # Push image to a docker repository
-docker push $dockerpath:latest
+docker push $dockerpath

@@ -5,12 +5,12 @@
 # Step 1:
 # This is your Docker ID/path
 # dockerpath=<>
-dockerpath=diawa/sklearn
+dockerpath="diawa/skl:1.0"
 
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run sklearn --image=$dockerpath --port=80 labels app=sklearn
+kubectl run sklearn --image=$dockerpath --port=80
 
 # Step 3:
 # List kubernetes pods
