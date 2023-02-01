@@ -11,8 +11,8 @@ dockerpath=diawa/sklearn
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker login -u diawa -p "Megusta@94"
-docker image tag sklearn:latest $dockerpath
+docker login
+docker --tag sklearn $dockerpath:latest
 
 # Step 3:
 # Push image to a docker repository
